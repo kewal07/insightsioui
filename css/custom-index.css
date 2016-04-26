@@ -1,0 +1,78 @@
+header.site-header{
+  padding-bottom:200px;
+}
+.top-section{
+  padding-bottom:300px;
+}
+a.products-explore{
+    border: 2px solid #428bca;
+    padding: 0rem 1rem;
+}
+#services {
+  padding-top: 100px;
+}
+#services .left-one h1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #222;
+  margin: 0 0 60px 0;
+}
+#services .left-one h1 em,.service-em {
+  font-style: normal;
+  color: #f55858;
+}
+#services .right-one {
+  color: #fff;
+}
+#services .right-one .title {
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+#services .right-one .title h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+#services .right-one .title span {
+  font-size: 16px;
+  font-weight: 300;
+}
+#services .right-one .text-left {
+  margin-left: 40px;
+}
+#services .right-one .text-left h4 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0 0 40px 0;
+}
+#services .right-one .text-left ul {
+  padding: 0;
+  list-style-type: square;
+  list-style-position: inside;
+}
+#services .video-holder {
+  margin-top: 80px;
+  overflow: hidden;
+}
+#services .video-holder iframe {
+  width: 100%;
+}
+#services .video-holder h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+img.product-image {
+    display: block;
+    width: 100%;
+}
+.page-heading{
+  text-align: center;
+  margin-bottom:3rem;
+}
+.product-heading{
+  text-align: center;
+}

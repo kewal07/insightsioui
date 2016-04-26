@@ -1,0 +1,17 @@
+header.site-header{
+	padding-bottom:150px;
+}
+.top-section{
+	padding-top:0;
+}
+.product-description{
+	margin:0 auto !important;
+}
+.top-section .row{
+	margin:2rem 0;
+}
+.top-section-2{
+	margin-top: -37rem;
+    z-index: 1;
+    padding-top: 8rem;
+}
