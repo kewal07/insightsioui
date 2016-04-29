@@ -10,8 +10,32 @@ header.site-header{
 .top-section .row{
 	margin:2rem 0;
 }
-.top-section-2{
-	margin-top: -37rem;
-    z-index: 1;
-    padding-top: 8rem;
+#portfolio{
+    margin-top: -35%;
+}
+.#portfolio .product-heading{
+	color:black !important;
+}
+.container-first{
+	border-bottom:4px solid;
+	padding-bottom:2rem;
+}
+#Grid{
+	padding-top:1rem;
+}
+.container-first .product-heading{
+	font-size:2rem;
+}
+.container-first .page-heading{
+	margin-bottom: 0rem;
+}
+li.active a{
+	color:#777 !important;
+}
+li.active-product-page a{
+	color:#f55858 !important;
+}
+.container-demo{
+	margin:0 auto;
+	text-align: left;
 }
