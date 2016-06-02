@@ -1,0 +1,13 @@
+header.site-header{
+	padding-bottom:150px;
+}
+img{
+	width:200px !important;
+	height: 200px !important;
+	display: block;
+	margin:0 auto;
+}
+.top-section p{
+	margin:0 auto;
+	text-align: justify;
+}

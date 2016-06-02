@@ -1,15 +1,18 @@
 header.site-header{
 	padding-bottom:150px;
 }
-.top-section{
-	padding-top:0;
+.top-section p{
+	margin:0 auto;
 	text-align: justify;
 }
-.product-description{
-	margin:0 auto !important;
-}
 .top-section .row{
-	margin:2rem 0;
+	margin-bottom:2rem;
+}
+#products .circle h3 {
+	top:40%;
+}
+em{
+	color: black;
 }
 #portfolio{
     margin-top: -35%;
@@ -33,7 +36,7 @@ header.site-header{
 li.active a{
 	color:#777 !important;
 }
-li.active-product-page a{
+li.active-services-page a{
 	color:#f55858 !important;
 }
 .container-demo{

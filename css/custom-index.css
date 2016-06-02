@@ -7,6 +7,29 @@ header.site-header{
 a.products-explore{
     padding: 0.5rem 1rem;
 }
+#portfolio{
+  padding-bottom: 0;
+}
+#portfolio #Grid{
+  border-bottom:4px solid;
+  padding-bottom:2rem;
+}
+#solutions{
+  padding-top:2rem;
+}
+.solutions-heading{
+    font-size: 22px;
+    color: #222222;
+    font-weight: 700;
+}
+#solutions .row-first{
+  margin-bottom:3rem;
+}
+.know-more-solutions{
+  margin:0 auto;
+  text-align: center;
+  margin:1rem;
+}
 #services {
   padding-top: 100px;
 }
@@ -74,4 +97,13 @@ img.product-image {
 }
 .product-heading{
   text-align: center;
+}
+.submit-style{
+    border: 0;
+    outline: 0;
+    background: #f55858;
+    color: #fff;
+    padding: 8.25px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
