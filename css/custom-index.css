@@ -1,19 +1,17 @@
 div.side-navigator{
-  width: 2.5rem;
+  width: 30px;
   position: fixed;
-  left: 2rem;
-  top: 30%;
+  right: 2rem;
+  top: 36%;
 }
 
 .side-navigator-pointer{
-  padding: 0.3rem;
   background: white;
   border-radius: 50px;
   display: block;
   text-align: center;
   margin-bottom: 0.6rem;
   border: 4px solid;
-  font-size: x-large;
   cursor: pointer;
 }
 header.site-header{
@@ -105,8 +103,10 @@ a.products-explore{
   margin-bottom: 30px;
 }
 img.product-image {
-    display: block;
-    width: 100%;
+        display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
 .page-heading{
   text-align: center;
@@ -114,6 +114,7 @@ img.product-image {
 }
 .product-heading{
   text-align: center;
+  font-weight: bold;
 }
 .submit-style{
     border: 0;
