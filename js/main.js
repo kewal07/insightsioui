@@ -38,11 +38,11 @@
         href = "#top";
         offsetTop = href === "#" ? 0 : $("#top").offset().top-topMenuHeight+1;
       } else if(index === "8"){
-        href = "#product-inner";
-        offsetTop = href === "#" ? 0 : $("#product-inner").offset().top-topMenuHeight+1;
+        href = "#portfolio";
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "9"){
-        href = "#product-salient-features";
-        offsetTop = href === "#" ? 0 : $("#product-salient-features").offset().top-topMenuHeight+1;
+        href = "#salient-features";
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       }
       $('html, body').stop().animate({
         scrollTop: offsetTop

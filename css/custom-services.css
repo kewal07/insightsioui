@@ -1,12 +1,30 @@
 header.site-header{
 	padding-bottom:150px;
 }
+.top-section{
+	padding-top: 0;
+    text-align: justify;
+    padding-bottom: 2rem;
+    background: #fff;
+    color: #777777;
+}
 .top-section p{
 	margin:0 auto;
 	text-align: justify;
 }
-.top-section .row{
+.row-first{
 	margin-bottom:2rem;
+}
+.page-heading{
+	font-weight: normal;
+	font-size:32px;
+}
+.below-h1{
+	font-size:1rem;
+}
+.product-heading{
+	font-weight: normal !important;
+	font-size:26px !important;
 }
 #products .circle h3 {
 	top:40%;
@@ -14,15 +32,18 @@ header.site-header{
 em{
 	color: black;
 }
+#core-services{
+	background: #f55858;
+	color:#fff;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
 #portfolio{
-    margin-top: -20%;
+    margin-top: 0%;
+    padding-top:30px;
 }
 .#portfolio .product-heading{
 	color:black !important;
-}
-.container-first{
-	border-bottom:4px solid;
-	padding-bottom:2rem;
 }
 #Grid{
 	padding-top:1rem;

@@ -11,6 +11,8 @@ header.site-header{
 	padding-top:0;
 	text-align: justify;
 	padding-bottom: 0;
+	background: #fff;
+	color:#777777;
 }
 .top-section h3,.product-heading{
 	font-size: 26px;
@@ -32,6 +34,8 @@ header.site-header{
 #portfolio{
     margin-top: 0;
     padding-top:30px;
+    background: #f55858;
+    color:#fff;
 }
 .#portfolio .product-heading{
 	color:black !important;
@@ -39,7 +43,7 @@ header.site-header{
 	font-size:26px;
 }
 .container-first{
-	border-bottom:4px solid;
+	/*border-bottom:4px solid;*/
 	padding-bottom:2rem;
 }
 #Grid{
@@ -49,9 +53,9 @@ header.site-header{
 	font-size:26px;
 	font-weight: normal;
 }
-.container-first .page-heading{
+/*.container-first .page-heading{
 	margin-bottom: 0rem;
-}
+}*/
 li.active a{
 	color:#777 !important;
 }
