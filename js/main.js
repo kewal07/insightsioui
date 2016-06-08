@@ -18,30 +18,39 @@
       var href = "";
       if(index === "1"){
         href = "#top";
-        offsetTop = href === "#" ? 0 : $("#top").offset().top-topMenuHeight+1;
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "2"){
         href = "#product-inner";
-        offsetTop = href === "#" ? 0 : $("#product-inner").offset().top-topMenuHeight+1;
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "3"){
         href = "#portfolio";
-        offsetTop = href === "#" ? 0 : $("#portfolio").offset().top-topMenuHeight+1;
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "4"){
         href = "#solutions";
-        offsetTop = href === "#" ? 0 : $("#solutions").offset().top-topMenuHeight+1;
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "5"){
         href = "#services";
-        offsetTop = href === "#" ? 0 : $("#services").offset().top-topMenuHeight+1;
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "6"){
         href = "#contact";
-        offsetTop = href === "#" ? 0 : $("#contact").offset().top-topMenuHeight+1;
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "7"){
         href = "#top";
-        offsetTop = href === "#" ? 0 : $("#top").offset().top-topMenuHeight+1;
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "8"){
         href = "#portfolio";
         offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       } else if(index === "9"){
         href = "#salient-features";
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+      } else if(index === "10"){
+        href = "#top";
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+      } else if(index === "11"){
+        href = "#core-services";
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+      } else if(index === "12"){
+        href = "#portfolio";
         offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
       }
       $('html, body').stop().animate({
