@@ -123,6 +123,8 @@ img.product-image {
     text-transform: uppercase;
     font-weight: 700;
 }
-.request-demo-header{
-  
+
+#portfolio .work-item .image-holder img {
+    width: 100%;
+    height:194px;
 }

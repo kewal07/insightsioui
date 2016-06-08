@@ -781,6 +781,7 @@ footer .social li {
   display: inline-block;
   margin-left: 20px;
 }
+
 @media (max-width: 1200px) {
   #products .circle {
     width: 270px;
