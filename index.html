@@ -46,33 +46,56 @@ http://www.templatemo.com/tm-416-xenon
     <header class="site-header" id="top">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-                <div class="row">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-menu">
-                            <span class="sr-only">Toggle navigation</span>
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <div class="logo-wrapper">
-                            <a class="navbar-brand" href="http://www.insightsio.com">
-                                <em>Insights</em> IO
-                                <span class="logo-s"></span>
-                            </a>
-                        </div>  
-                    </div>
-                    <div class="collapse navbar-collapse" id="main-menu">
-                        <ul class="nav navbar-nav navbar-right">
-                            <span class="nav-s"></span>
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="products-explore.html">Products</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><button style="margin-top:22px;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Request Demo</button></li>
-                        </ul>
-                    </div>
-                </div> 
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="logo-wrapper">
+                        <a class="navbar-brand" href="http://www.insightsio.com">
+                            <em>Insights</em> IO
+                            <span class="logo-s"></span>
+                        </a>
+                    </div>  
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <span class="nav-s"></span>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="products-explore.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><button style="margin-top:22px;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Request Demo</button></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+
+    <div class="modal fade" id="myModal" class="col-md-5">
+        <div style="border:1px solid white; padding:2rem;background: #f55858;" class="modal-dialog contact-form">
+            <h2 style="color:white;">CONTACT US</h2>
+            <span style="color:white;">SEND A MESSAGE</span>
+            <form action="https://formspree.io/hello@insightsio.com" method="post">
+                <div class="row">
+                    <fieldset class="col-md-6">
+                        <input style="margin-bottom: 1rem;" type="text" name="name" id="name" placeholder="Name...">
+                    </fieldset>
+                    <input type="hidden" name="_next" value="http://www.insightsio.com/" />
+                    <fieldset class="col-md-6">
+                        <input style="margin-bottom: 1rem; " type="email" name="email" id="email" placeholder="Email Address...">
+                    </fieldset>
+                    <fieldset class="col-md-12">
+                        <textarea style="margin-bottom: 2rem; name="message" id="message" placeholder="Message..."></textarea>
+                    </fieldset>
+                    <fieldset style="font-size:1rem;" class="col-md-12">
+                        <input style="background:#428bca;" class="btn submit-style" type="submit" id="button-message" value="Send Message">
+                        <a style="background:#428bca;" class="submit-style" href="about-us.html">Or Know A Little More About Us</a>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </div>
 
     <div class="side-navigator">
         <span class="side-navigator-pointer" id="side-navigator-home-1"><i class="fa fa-home"></i></span>
@@ -425,7 +448,7 @@ http://www.templatemo.com/tm-416-xenon
         </div>
     </footer>
     
-    <script src="https;//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
     
     <script src="js/bootstrap.min.js"></script>
@@ -454,6 +477,5 @@ http://www.templatemo.com/tm-416-xenon
             });
         });
     </script>
-
 </body>
 </html>
