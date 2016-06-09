@@ -18,6 +18,12 @@ img{
 	padding:1rem;
 }
 #insightsio-about-us-img{
-	height:600px !important;
-	width:800px !important;
+	height:550px !important;
+	width:600px !important;
+}
+.product-description{
+	font-size:1rem;
+}
+.product-image{
+	margin-bottom: 1rem !important;
 }
