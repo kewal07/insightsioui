@@ -132,3 +132,30 @@ img.product-image {
 .product-description{
   text-align:justify;
 }
+
+@media only screen and (max-width: 900px) {
+    .side-navigator {
+        display: none;
+    }
+    header.site-header{
+      padding-bottom:0;
+    }
+    .top-section{
+      padding-top:210px;
+    }
+    .submit-style{
+      padding:0.5rem;
+    }
+    .top-section p{
+      width:100%;
+    }
+    #products .circle h3 {
+      top: 15%;
+    }
+    #products{
+      padding-bottom:28rem;
+    }
+    .black-h3{
+      color:#000 !important;
+    }
+}

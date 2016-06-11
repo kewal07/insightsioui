@@ -27,3 +27,13 @@ img{
 .product-image{
 	margin-bottom: 1rem !important;
 }
+@media only screen and (max-width: 900px) {
+	#insightsio-about-us-img{
+		width:100% !important;
+		display: block;
+		margin:0;
+	}	
+	.top-section {
+     	padding-top: 0px; 
+	}
+}
